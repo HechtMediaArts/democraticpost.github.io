@@ -1,0 +1,151 @@
+/**
+ * Print Stylesheet fuer Democratic Post
+* @version         1.0
+* @lastmodified    15.11.2015
+*/
+
+@media print {
+
+body {
+background: #fff !important;
+color: #000;
+font: 13pt Arial, sans-serif !important;
+}
+
+/**
+ * Eingebundene Videos verschwinden lassen und den Whitespace der iframes auf null reduzieren.
+ */
+#content iframe, ins {
+    display: none;
+    width: 0 !important;
+    height: 0 !important;
+    overflow: hidden !important;
+    line-height: 0pt !important;
+    white-space: nowrap;
+}
+.embed-youtube, .embed-responsive {
+  position: absolute;
+  height: 0;
+  overflow: hidden;
+}
+@media print and (color) {
+   * {
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+   }
+}
+    
+/** Seitenränder einstellen */       
+@page { margin: 2cm }   
+
+/* Seitenbreite */
+body, #container, #content {
+width: 100% !important;
+margin: 0px !important;
+padding: 0 !important;
+}
+#logo {display: block}
+#adcontainer, #top, #topnav, .breadcrumb, #umfrage, aside#sidebar, .related-posts, .fb-page,
+.zilla-alert, .post-tags, .readability, .startseite, .about-author, #respond, footer, .sumome-share-client-wrapper.sumome-share-client-wrapper-left-page,
+.fb_iframe_widget, #facebook-seite, .single-post .post-categories a, .featured-content .post-categories a, .subheadline, .post-meta, .commentbutton, .spenden-box, .plista_widget_standard_1, .post-image-caption, .topcontrol, .up,.wp-caption-text {
+display: none;
+}
+header img {
+      width: 500px;
+    margin: 0 auto;
+   }
+aside.mashsb-container, .mashshare-top, .mashshare-bottom, footer.clearfix, .moodly, .moodly-recommendations, .decom_dop_bloc, .decomments-number, .bctt-click-to-tweet, .spenden-box, .content-ads manuell {
+    display: none;
+}
+    .content-ads manuell, ins {
+        display: none !important;
+        width: 0 !important;
+        height: 0 !important;
+         overflow: hidden !important;
+    line-height: 0pt !important;
+    white-space: nowrap;
+    }    
+
+h1,h2,h3,h4,h5,h6 {
+        font-weight: 700;
+		margin: .75em 0 .5em;
+		text-align: left;
+		page-break-after: avoid;
+    page-break-inside: avoid;
+}
+
+/* Vermeidung von Seitenumbrüchen direkt nach einer Überschrift */
+h1 { 
+        text-align: center;
+		padding: 0 0 .5em;
+		border-bottom: 1px solid #ccc;
+}
+
+p, address, li, dt, dd, blockquote {
+font-size: 100%
+}
+
+/* Zeichensatz fuer Code Beispiele */
+code, pre { font-family: "Courier New", Courier, mono}
+
+ul, ol {
+list-style: square; margin-left: 18pt;
+margin-bottom: 20pt;    
+}
+
+li {
+line-height: 1.6em;
+}
+
+a:link, a:visited, a {
+background: transparent;
+color: #520;
+font-weight: bold;
+text-decoration: underline;
+text-align: left;
+}
+a {
+    page-break-inside:avoid !important
+}
+blockquote {
+    page-break-inside: avoid;
+}
+.elements-box a[href^=http]:after {
+      content:" <" attr(href) "> ";
+   }
+$a:after > img {
+   content: "";
+}
+
+article a[href^="#"]:after {
+   content: "";
+}
+a:not(:local-link):after {
+   content:" <" attr(href) "> ";
+}
+
+#content img {
+display:block;
+page-break-inside: avoid;
+}
+
+#content ul, li {
+display:block;
+page-break-inside:avoid;
+}
+
+#content:after {
+content: "\ Alle Rechte vorbehalten. (c) 2015 - 2016 Democratic Post - www.democraticpost.de";
+color: #999 !important;
+font-size: 1em;
+padding-top: 30px;
+}
+#topbereich:before {
+content: "\ Vielen herzlichen Dank für das Ausdrucken unseres Artikels. Wir hoffen, dass auch andere Artikel von uns Ihr Interesse wecken können.";
+color: #777 !important;
+font-size: 1em;
+padding-top: 30px;
+text-align: center !important;    
+}    
+    
+}

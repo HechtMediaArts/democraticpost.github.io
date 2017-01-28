@@ -1,0 +1,369 @@
+/*
+ * Glossy Red Editor Style
+ * Used to style the TinyMCE editor.
+*/
+html .mceContentBody {
+	max-width:740px;
+}
+* {
+	font-family: "Helvetica Neue", Arial, sans-serif;
+	color: #444;
+	line-height: 16pt;
+}
+p,
+dl,
+td,
+th,
+ul,
+ol,
+blockquote {
+	font-size: 13pt;
+}
+code, tt, code, kbd, samp, pre {
+	font-family: monospace;
+	font-size: 11pt;
+}
+pre {
+	background: #f3f3f3;
+	padding: 16px;
+}
+
+body, input, textarea {
+	font-size: 13pt;
+	line-height: 16pt;
+}
+
+hr {
+	border: none;
+	height: 1px;
+	background: #ddd;
+	margin: 10px 10px;
+}
+
+
+/* Text elements */
+p {
+	margin-bottom: 10px;
+}
+ul {
+	list-style: disc;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 42px;
+	margin: 0 0 18px 1.5em;
+}
+ol {
+	margin-left: 42px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	list-style: decimal;
+	margin: 0 0 18px 1.5em;
+}
+ol ol {
+    list-style: upper-alpha;
+}
+
+ol ol ol {
+    list-style: lower-roman;
+}
+
+ol ol ol ol {
+    list-style: lower-alpha;
+}
+
+q::before {
+	content: '"';
+}
+
+q::after {
+	content: '"';
+}
+
+sup, sub {
+	font-size: 10pt;
+	position: relative;
+}
+
+sup {
+	bottom: 1ex;
+}
+
+sub {
+	top: 0.5ex;
+}
+
+ins {
+	background: #FFC;
+}
+
+table {
+	width: 100%;
+	margin: 20px 0;
+}
+
+table th {
+	text-align: left;
+	padding: 8px;
+	font-weight: normal;
+	background: #4178ae;
+	color: white;
+}
+
+dl {
+	margin: 20px 0;
+}
+
+dt {
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+table td {
+	text-align: left;
+	padding: 8px;
+	border-bottom: dotted 1px #ddd;
+}
+
+strong {
+	font-weight: bold;
+}
+cite,
+em,
+i {
+	font-style: italic;
+	border: none;
+}
+big {
+	font-size: 130%;
+}
+
+blockquote {
+	padding: 10px 20px 20px 80px;
+	background: #fafafa;
+	border: 1px solid #eee;
+	position: relative;
+	font-style: italic;
+    margin: 30px 0;
+    font-family: Georgia,"Times New Roman",Times,serif !important;
+    color: #666 !important;
+    font-size: 1em !important;
+}
+
+blockquote p { 
+    font-style: italic; 
+    font-weight: 500 !important;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+    border-bottom:  none !important;
+    padding-bottom: none !important;
+    font-family: Georgia,"Times New Roman",Times,serif !important;
+    color: #444 !important;
+   font-size: 1em !important;
+}
+
+blockquote:after {
+	content: '”';
+	width: 90px;
+	font-family: 'Georgia', serif;
+	font-size: 72px;
+	line-height: 72px;
+	font-weight: 700;
+	font-style: normal;
+	text-align: center;
+	color: #098d94;
+	position: absolute;
+	top: 31px;
+	left: 0px;
+}
+
+blockquote cite {
+	display: block;
+	margin-top: 1.1em;
+	font-family: Helvetica, sans-serif;
+	font-size: 0.75em;
+	line-height: 120%;
+	font-weight: 900;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+blockquote cite:before { content: "— "; }
+
+p.notiz {
+    padding: 25px;
+    background: #f1f1f1;
+    margin: 20px 0 30px 0;
+    font-family: Georgia, serif;
+    color: #444 !important;
+    font-size: 17px !important;
+    display: block;
+    font-weight: 100;
+}
+p.notiz:before {
+    content: "»";
+    font-size: 20px;
+}
+p.notiz:after {
+    content: "«";
+    font-size: 20px;
+}
+
+p.nummer-liste {
+    margin-bottom: 0 !important;
+}
+
+p.nummer-liste strong {
+    font-family: Arial, sans-serif;
+    background-color: #098d94;
+    border: 0.3em solid #fff;
+    border-radius: 50%;
+    color: #fff;
+    display: block;
+    font-size: 110%;
+    font-weight: bold;
+    height: 1.9em;
+    line-height: 2.0em;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    width: 1.9em;
+    z-index: 1;
+}
+
+p.nummer-liste:before {
+    background-color: #098d94;
+    content: "";
+    height: 2px;
+    position: absolute;
+    margin-top: 1.4em;
+    width: 98%;
+}
+h3.listpunkt {
+    margin-top: 0 !important;
+    font-size: 20px !important;
+    text-align: center !important;
+}
+
+.evo-button {
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 10px 15px;
+    background-color: #098d94;
+    border: 1px solid #098d94;
+    color: #fff !important;
+    display: inline-block;
+    font-size: 15px;
+    position: relative;
+    z-index: 0;
+    text-decoration: none !important;
+}
+.evo-button:hover {
+    background-color:#fff;
+    border:1px solid #e4e4e4;
+    color:#333 !important;
+    text-decoration: none !important;
+}
+/** Die Alert-Styles
+--------------------------------------------------------- */
+.zilla-alert { padding: 20px; margin: 0 0 20px 0 !important; line-height: 1.6em; border-radius: 4px!important; -webkit-border-radius: 4px!important; -moz-border-radius: 4px!important; -o-border-radius: 4px!important; box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0 1px 0 rgba(255,255,255,0.6); -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0 1px 0 rgba(255,255,255,0.6); -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0 1px 0 rgba(255,255,255,0.6); -o-box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0 1px 0 rgba(255,255,255,0.6);}
+.zilla-alert.white { background: #fff; border: 1px solid #dfdfdf; color: #373737; }
+.zilla-alert.red { background: #ffe6e3; border: 1px solid #f2c3bf; color: #bf210e;}
+.zilla-alert.yellow { background: #fff7d6; border: 1px solid #e9d477; color: #956433;}
+.zilla-alert.green { background: #edfdd3; border: 1px solid #c4dba0; color: #657e3c; }
+.zilla-alert.grey { background: #f2f2f2; border: 1px solid #dfdfdf; color: #555;}
+#content .zilla-alert h5 {
+    margin: 0 0 15px 0;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+#content .zilla-alert p, #content p.zilla-alert {
+    margin-bottom: 0;
+    font-family: Georgia, serif;
+}
+/* Ende Alerts */
+.zilla-alert.grey.abstand {
+    margin: 30px 0;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0 1px 0 rgba(255,255,255,0.6);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0 1px 0 rgba(255,255,255,0.6);
+    border-radius: 0px !important;
+    border-color: #ccc !important;
+}
+/* Ende Alerts */
+
+a:link {
+	color: #098d94;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #444;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-bottom: 20px;
+	margin-top: 20px;
+	color: #333;
+	clear: both;
+    font-family: "Varela Round", sans-serif;
+    line-height: 1.2em;
+}
+
+h1 {
+	font-size: 26pt;
+}
+
+h2 {
+	font-size: 24pt;
+}
+
+h3 {
+	font-size: 20pt;
+}
+
+h4, h5, h6 {
+	font-size: 16pt;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 700;
+}
+
+img {
+	max-width: 700px;
+}
+
+.aligncenter {
+	display: block;
+	margin: 10px auto;
+}
+
+.alignleft {
+	display: inline;
+	float: left;
+	margin: 10px 10px 10px 0;
+}
+
+.wp-caption.alignleft {
+	margin: 20px 20px 20px 0;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+	margin: 10px 0 10px 10px;
+}
+
+p.wp-caption-text {
+	color: #888;
+	font-style: oblique;
+	margin-top: 2px;
+	font-size: 9pt;
+	text-align: center;
+}
+
+/* Smiley */
+img.wp-smiley {
+	border: none;
+	padding: 0;
+	margin: 0;
+}

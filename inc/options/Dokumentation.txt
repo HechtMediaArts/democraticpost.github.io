@@ -1,0 +1,15 @@
+
+jQuery zurück in den <head> Bereich bringen.
+
+// Unhook default Evolution functions
+function unhook_evolution_functions() {
+    // Don't forget the position number if the original function has one
+    remove_action( 'wp_default_scripts', 'ds_print_jquery_in_footer');
+}
+add_action('init','unhook_evolution_functions');
+
+
+JavaScript Script Tag von async und defer Attributen bereinigen
+
+remove_filter( 'clean_url', 'evolution_add_script_defer', 99, 1);
+========================================================
