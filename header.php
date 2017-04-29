@@ -59,7 +59,7 @@ do_action( 'evolution_do_meta' );
         
 wp_nav_menu( array('menu' => 'primary', 'container' => '', 'menu_class' => 'evolution-nav-menu menu-primary', 'menu_id' => 'mobileselect', 'theme_location' => 'primary', 'depth' => 5 ) );
  
-     $mobile_menu_walker = new kopa_mobile_menu();
+    $mobile_menu_walker = new kopa_mobile_menu();
     wp_nav_menu(array(
         'theme_location' => 'primary',
         'container' => 'div',

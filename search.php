@@ -43,10 +43,7 @@ bcn_display();
 <ul class="entry-list isotop-item clearfix">
 <?php if ( have_posts() ) : 
 				?>
-				<h1 class="suchergebnisse"><?php _e('Die Suchergebnisse für', 'revothemes') ?>:
-				<mark>
-					<?php printf(the_search_query());?>
-				</mark></h1>
+				<h1 class="suchergebnisse"><?php _e('Die Suchergebnisse für', 'revothemes') ?>:<mark><?php printf(the_search_query());?></mark></h1>
 				<?php while ( have_posts() ) : the_post(); ?>
 				
 <?php
