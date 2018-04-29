@@ -1701,6 +1701,7 @@ add_filter(
 /* =============================================================================
  Ein kompaktes Archiv nach Jahr und Monat
 ============================================================================= */
+
 function compact_archive( $style='initial', $before='<li>', $after='</li>' ) {
  	$result = false;
 	// if the Plugin Output Cache is installed we can cheat...

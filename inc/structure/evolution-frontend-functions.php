@@ -365,8 +365,8 @@ function evolution_header_ad() {
    <div id="text-16" class="widget widget_text">
    <div class="widget-wrap">
        <div class="textwidget">
-       <a href="https://www.hostnet.de/1237-2-1-32.html" target="_blank" rel="nofollow">
-       <img src="https://www.democraticpost.de/wp-content/uploads/2016/05/ZahlNur_728x90.png" alt="hostNET Webserver - Zahl nur was Du willst" />
+       <a href="//www.hostnet.de/1237-2-1-32.html" target="_blank" rel="nofollow">
+       <img src="//www.democraticpost.de/wp-content/uploads/2016/05/ZahlNur_728x90.png" alt="hostNET Webserver - Zahl nur was Du willst" />
        </a>
        </div>
 		</div>

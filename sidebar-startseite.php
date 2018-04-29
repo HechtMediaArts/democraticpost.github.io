@@ -40,7 +40,7 @@
 <!-- END Social Networks -->    
 <?php dynamic_sidebar( 'startseite' ); ?>
 <!-- Buch Werbung -->
-<div id="text-buch" class="widget widget_text">
+<!--<div id="text-buch" class="widget widget_text">
 <div class="widget-wrap">
 <div class="widgettitle">Unsere E-Books für Sie</div>
 <div class="textwidget">
@@ -50,7 +50,7 @@
 <p><a class="evo-button" href="http://amzn.to/1Qs9IWX" target="_blank" rel="nofollow">Bei Amazon für nur 3,99 € kaufen »</a></p>
 </div>
 </div>
-</div>
+</div>-->
 <!-- END Buch Werbung -->
 <!-- Buch Werbung -->
 <!--<div id="text-buch-2" class="widget widget_text">

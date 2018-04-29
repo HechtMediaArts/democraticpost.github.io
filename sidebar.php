@@ -49,14 +49,14 @@
 <p>
 <!--- Start HTML-Code superclix.de Partnerprogramm 1/60667 --->
 <a href="http://clix.superclix.de/cgi-bin/clix.cgi?id=hechtmediaarts&pp=1&linknr=60667" target="_blank" rel="nofollow">
-<img src="https://www.democraticpost.de/wp-content/uploads/2016/05/sc_2008_300x250_04.gif" width="300" height="250" alt="Werbung"></a>
+<img src="//www.democraticpost.de/wp-content/uploads/2016/05/sc_2008_300x250_04.gif" width="300" height="250" alt="Werbung"></a>
 <!--- Ende HTML-Code superclix.de Partnerprogramm 1/60667 --->
 </p>
 </div>
 </div>
 </div>		
 <!-- Buch Werbung -->
-<div id="text-buch-1" class="widget widget_text">
+<!--<div id="text-buch-1" class="widget widget_text">
 <div class="widget-wrap">
 <div class="widgettitle">Unsere E-Books für Sie</div>
 <div class="textwidget">
@@ -66,13 +66,13 @@
 <p><a class="evo-button" href="http://amzn.to/1Qs9IWX" target="_blank" rel="nofollow">Bei Amazon für nur 3,99 € kaufen »</a></p>
 </div>
 </div>
-</div>
+</div>-->
 <!-- END Buch Werbung -->			
 		
 <!-- Buch Werbung -->
-<div id="text-buch-3" class="widget widget_text">
+<!--<div id="text-buch-3" class="widget widget_text">
 <div class="widget-wrap">
-<!-- <div class="widgettitle">E-Book Besser schlafen</div> -->
+ <div class="widgettitle">E-Book Besser schlafen</div> 
 <div class="textwidget">
 <a href="http://amzn.to/1Sm9M7u" target="_blank" rel="nofollow">
 <img src="https://www.democraticpost.de/wp-content/uploads/2016/04/cover-alternativ.jpg" alt="Werbung eBook" width="300" height="479" />
@@ -80,7 +80,7 @@
 <p><a class="evo-button" href="http://amzn.to/1Sm9M7u" target="_blank" rel="nofollow">Bei Amazon für nur 3,49 € kaufen »</a></p>
 </div>
 </div>
-</div>
+</div>-->
 <!-- END Buch Werbung -->			
 	</div><!-- end div .aside-inner -->
 </aside><!-- end aside -->
